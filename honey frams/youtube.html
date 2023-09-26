@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>YouTube Video Grid</title>
+    <style>
+        /* Basic CSS for the video grid */
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns in the grid */
+    gap: 20px; /* Gap between grid items */
+    padding: 20px;
+}
+
+.video-thumbnail {
+    text-align: center;
+}
+
+.video-thumbnail img {
+    max-width: 100%;
+    height: auto;
+}
+
+.video-thumbnail h3 {
+    margin: 10px 0;
+}
+
+    </style>
+</head>
+<body>
+    <div class="video-grid">
+        <!-- Replace these divs with your video thumbnails and titles -->
+        <div class="video-thumbnail">
+            <img src="video1.jpg" alt="Video 1">
+            <h3>Video 1 Title</h3>
+        </div>
+        <div class="video-thumbnail">
+            <img src="video2.jpg" alt="Video 2">
+            <h3>Video 2 Title</h3>
+        </div>
+        <!-- Add more video thumbnails here -->
+    </div>
+</body>
+</html>

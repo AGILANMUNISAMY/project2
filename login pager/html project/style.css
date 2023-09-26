@@ -1,0 +1,78 @@
+body{
+    margin:0%;
+    padding-right:0%;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1489450278009-822e9be04dff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80");
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-attachment: fixed;
+
+}
+header{
+    padding:45px;
+    font-size: 35;
+
+
+}
+.fristfile header{
+    font-size:25px;
+}
+.pass{
+    padding:15px ;
+    
+}
+.pass input{
+    width:250px;
+    height:25px ;
+    border-radius:6px;
+    margin: 15px;
+}
+.container{
+    padding-left:15px;
+   
+}
+.container input{
+    width:250px;
+    height:25px ;
+    border-radius:6px;
+}
+.fristfile{
+    width: 300px;
+    height: 400px;  
+    margin:45px; 
+    padding: 20px;
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    background-color:#fff; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    
+}
+.click button{
+    border-radius:5px;
+    width:100px ;
+    height:25px;
+    background-color: lightskyblue;
+    cursor: pointer;
+    
+}
+.click button:hover{
+    background-color:yellowgreen;
+}
+.forget{
+    margin:15px;
+}
+.nextbtn button{
+    border-radius:5px;
+    width:150px ;
+    height:25px;
+    background-color: lightskyblue;
+    cursor: pointer;
+}
+.nextbtn button:hover{
+    background-color: yellowgreen;
+}

@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:url("https://img.freepik.com/free-photo/vegetables-set-left-black-slate_1220-685.jpg?w=900&t=st=1694886863~exp=1694887463~hmac=956261f8766dc1e17893b6cf9be5e5a4f2f381e1080a547b80de1e736d81b30a");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    max-width: 400px;
+    margin: 70px ;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: center;
+    opacity: 0.5;
+    margin-right:12px; ;
+    
+    
+    
+ 
+}
+
+h1 {
+    color:green;
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color:green;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    border-color: black;
+}
+
+button {
+    background-color:green;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius:10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+    margin-top:10px ;
+    
+}
+.error{
+    color:red;
+    font-size: 16px;
+    margin-top: 5px;
+}
+ .account {
+    margin-top: 5px;
+
+}
+#hello{
+    width: 50%;
+    margin-top:10px;
+
+}
